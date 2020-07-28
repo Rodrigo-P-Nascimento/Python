@@ -1,0 +1,6 @@
+nome = str(input("Qual o seu nome completo cidadão? ")).strip()
+print("O seu nome todo em maiúsculo é {}".format(nome.upper()))
+print("O seu nome todo em minúsculo é {}".format(nome.lower()))
+print("O seu nome contem extamente {} letras".format(len(nome) - nome.count(' ')))
+separa = nome.split()
+print("O seu primeiro nome é {} e tem {} letras".format(separa[0], len(separa[0])))
