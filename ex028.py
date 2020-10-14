@@ -1,7 +1,7 @@
 from random import randint
 from time import sleep
 print("-=-" * 20)
-print("MINI JOGO MERDA, FEITO PELA WENISSON SOFT")
+print("MINI JOGO")
 print("-=-" * 20)
 print("""O computador vai escolher um número inteiro entre 0 e 5 e
 você deverá tentar acertar tal número.""")
